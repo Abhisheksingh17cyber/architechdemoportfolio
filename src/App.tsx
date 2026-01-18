@@ -17,6 +17,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ParticlesBackground from './components/ParticlesBackground'
 import ScrollProgress from './components/ScrollProgress'
+import BlueprintBuilder from './components/BlueprintBuilder'
+import ArchitecturalKeypoints from './components/ArchitecturalKeypoints'
 
 // Hooks
 import { useLenis } from './hooks/useLenis'
@@ -68,7 +70,9 @@ function App() {
         <main>
           <Hero />
           <About />
+          <ArchitecturalKeypoints />
           <Services />
+          <BlueprintBuilder />
           <Projects />
           <Process />
           <Awards />
